@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+li{
+    list-style: none;
+}
+.right{
+    background-color: aqua;
+    width: 10vw;
+    height: 100vh;
+
+}
+.right .brandname{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right li{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+}
+.container{
+    background-color: blue;
+    color: white;
+   width: 90vw;
+   display: flex;
+   position: fixed;
+   top: 0;
+   right: 0;
+    
+}
+.container .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav .search{
+    padding-left: 80px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+    margin-left: 50px;
+    height: 40px;
+    width: 240px;
+    border-radius: 30px;
+}
+.search input{
+   text-align: ;
+    position: absolute;
+    left: 10%;
+    height: 40px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius:30px;
+    width: 20%;
+    border: none;
+}
+.search i{
+    margin: 0;
+    padding-right: 100px;
+    color: black;
+}
+.icons {
+    padding-left: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icons li{
+    padding: 10px;
+}
